@@ -1,0 +1,66 @@
+
+
+#mis-comandas-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#mis-comandas {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0056b3; 
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#no-orders-msg {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+}
+
+#orders-table {
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#orders-table thead {
+    background-color: #0056b3; 
+    color: #ffffff; 
+}
+
+#orders-table th,
+#orders-table td {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#orders-table th {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#orders-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+#orders-table tbody tr:hover {
+    background-color: #e6f2ff; 
+}
+
+#orders-table td {
+    color: #333;
+}
+
+#orders-table td:last-child {
+    font-weight: bold;
+    color: #0056b3; 
+}
